@@ -11,7 +11,7 @@ import Login from "./components/UserLogin"
 ]
 
 const  router = createRouter({
-  history : createWebHistory,
+  history : createWebHistory(),
   routes
 })
 
